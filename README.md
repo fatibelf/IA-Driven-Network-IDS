@@ -2,12 +2,12 @@
 
 This repository contains the core Machine Learning and Data Engineering pipeline developed for a Next-Gen Hybrid Intrusion Detection System (IDS). The pipeline is engineered to process live network traffic, extract statistical flow features in real-time, and utilize advanced predictive models to classify malicious behaviors (such as DDoS and Brute Force attacks).
 
-## 🚀 Key Features Engineered
+##  Key Features Engineered
 * **Real-Time Traffic Inspection:** Developed utilizing **Python** and **Scapy** to passively sniff network packets from live interfaces.
 * **Statistical Feature Extraction:** Dynamically extracts **56 distinct flow-based features** (including durations, packet counts, protocols, and byte sizes) to transform raw network data into structured inputs for the models.
 * **Intelligent Behavioral Classification:** Integrated an optimized **XGBoost Classifier** to deliver instant network anomaly and threat detection verdicts based on behavioral intelligence rather than static rules.
 
-## 📊 Model Architecture & Performance
+##  Model Architecture & Performance
 To maximize security efficiency, hyperparameter tuning (optimizing tree depth and learning rate) was systematically performed on the XGBoost model to maximize **Recall** and minimize critical false negatives.
 
 ### Classification Report Summary
